@@ -1,0 +1,156 @@
+Livro
+
+Cap2
+
+>>> a = 2
+>>> b = 3
+>>> print (a)
+2
+>>> print ("Evandro Pereira Dias")
+Evandro Pereira Dias
+>>> a = 3
+>>> b = 5
+>>> print (2*a) * (3*b)
+90
+>>> salario = 750
+>>> aumento = 15
+>>> print (salario + (salario * aumento / 100)
+... )
+862
+>>>
+================================
+CURSO pingmind
+
+Classes; 
+====
+>>> type(3.1415)
+<class 'float'>
+>>> type (42)
+<class 'int'>
+>>> type('abacate')
+<class 'str'>
+>>> 
+>>> type(True)
+<class 'bool'>
+>>> 
+====
+a = 'acabate'
+b = ' e banana'
+print (a+b.upper())
+>>> 
+acabate E BANANA
+>>> 
+====
+a = 'acabate'
+b = ' e banana'
+c = a+b
+print (c.upper())
+>>> 
+ACABATE E BANANA
+====
+>>> nota = 7
+>>> faltas = 30
+>>> nota >= 6 and faltas <=20
+False
+>>> a
+42
+>>> b
+13
+>>> b = 42
+>>> a == 42 or b == 42
+True
+>>> b = 13
+>>> a == 42 or b == 42
+True
+>>> 
+
+Ultima aula 4.1 - TWP030 Operadores relacionais e lógicos
+
+====
+Aula TW040
+
+>>> a = 13
+>>> b = 13
+>>> a = 42
+>>> print ('o número', a, 'é muito legal)
+       
+SyntaxError: EOL while scanning string literal
+>>> print ('o número', a, 'é muito legal')
+o número 42 é muito legal
+>>> print ('o número %d é muito legal', %a)
+SyntaxError: invalid syntax
+>>> print ('o número %d é muito legal', %a)
+SyntaxError: invalid syntax
+>>> 
+>>> print ('o número %d é muito legal', %a)
+SyntaxError: invalid syntax
+>>> a
+42
+>>> print ('o número %d é muito legal' %a)
+o número 42 é muito legal
+>>> print ('%d é uma variavel decimal')
+%d é uma variavel decimal
+>>> print ('%s é uma variavel string')
+%s é uma variavel string
+>>> print ('%f é uma variavel float')
+%f é uma variavel float
+>>> 
+====
+
+Aula TWP050
+Para somar decimal + string não é possível diretamente, deve-se transformar decimal em string
+>>> a = 42
+>>> str(a) + 'mamoes'
+'42mamoes'
+>>> a
+42
+>>> b
+13
+>>> a, b = b, a
+>>> a
+13
+>>> b
+42
+>>> a, b, c = 1,2,3
+>>> a
+1
+>>> b
+2
+>>> c
+3
+>>> a,b,c='OBA'
+>>> a
+'O'
+>>> b
+'B'
+>>> c
+'A'
+>>> a,b,c='OBA','OBA','OBA'
+>>> a
+'OBA'
+>>> b
+'OBA'
+v
+>>> 
+>>> c
+'OBA'
+=====
+Aula TWP052
+#www.pythontutor.com - 
+>>> dívida = 0
+>>> compra = 42
+>>> dívida = dívida + compra
+>>> compra = 13
+>>> dívida = dívida + compra
+>>> compra = 50
+>>> dívida = dívida + compra
+>>> print (dívida)
+105
+>>> 
+
+
+
+
+
+
+
